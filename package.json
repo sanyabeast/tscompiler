@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"typescript": "latest",
+		"requirejs": "latest",
+		"directory-tree": "latest",
+		"colors": "latest"
+	}
+}
