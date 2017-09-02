@@ -1,8 +1,22 @@
 {
-	"dependencies": {
-		"typescript": "latest",
-		"requirejs": "latest",
-		"directory-tree": "latest",
-		"colors": "latest"
-	}
+    "version": "0.1.1-a",
+    "name": "tscompiler",
+    "scripts": {
+        "increase": "node node_modules/vpplus/vpplus.js increase-build"
+    },
+    "author": {
+        "name": "Alex Gaivoronski",
+        "email": "a.gvrnsk@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sanyabeast/tscompiler.git"
+    },
+    "dependencies": {
+        "typescript": "latest",
+        "requirejs": "latest",
+        "directory-tree": "latest",
+        "colors": "latest",
+        "vpplus": "git://github.com/sanyabeast/vpplus.git"
+    }
 }

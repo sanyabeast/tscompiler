@@ -10,6 +10,11 @@ class tscompiler {
 		this.processFile = this.processFile.bind(this);
 	}
 
+	make (params){
+		var srcDirPath = params["source-dir"];
+		this.processDir(srcDirPath);
+	}
+
 	processDir (srcDirPath) {
 		var srcFiles = [];
 		var dir = this.getDirectoryTree(srcDirPath);
